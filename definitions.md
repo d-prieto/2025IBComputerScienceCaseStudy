@@ -60,9 +60,15 @@
 
 ### Self-attention mechanism (go a bit in detail)
 
-
 ## Specifications of a dataset: large, accurate, classified, readable, domain specific, relevant
 
+## Specification of bias 
+
+## Preprocessing  the input data
+
+
+
+//TO-DO
 
 Bag-of-words
 Biases
