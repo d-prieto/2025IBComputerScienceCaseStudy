@@ -1,28 +1,6 @@
 # Case Study definitions (in orden of appearance) 
 
-## Previous concepts
-
-### Query
-
-### Pipeline 
-
-### Architecture of a system
-
-### Decision algorithm 
-
-## Neural network
-
-### Hyperparameter (in a neural network)
-
-### Layer of a neural network
-
-### Input layer
-
-### Hidden layer
-
-### Output layer
-
-### Gradient of a function (and relationship with Neural Networks)
+Before getting into the case study definitions in Depth I'm using another layer of definitions a bit more simple to later get into these concepts. 
 
 ## Latency
 
@@ -34,10 +12,11 @@
 
 ## Natural language understanding (NLU)
 
-
-## Different types of analysis of a phrase (do a table)
+## Different types of analysis of a phrase
+[Do a table of different types of analysis of a phrase and 
 
 ## Recurrent neural network (RNN)
+[Build from the understanding of Neural Networks and gradient of a function from up above and explain the different concepts]
 
 ### Memory of the network
 
@@ -50,6 +29,7 @@
 ### Vanishing gradient
 
 ## Long short-term memory (LSTM)
+[Expand the the definition from the booklet with examples so everybody can understand it]
 
 ### Memory cell state
 ### Input gate
@@ -57,35 +37,76 @@
 ### Output gate 
 
 ## Transformer Neural Networks (Transformer NNs)
+[Build from the understanding of Neural Networks and gradient of a function from up above and explain the different concepts]
 
-### Self-attention mechanism (go a bit in detail)
+
+### Self-attention mechanism 
+[Go in detail with this]
 
 ## Specifications of a dataset: large, accurate, classified, readable, domain specific, relevant
+[For each specification write the definition and an example of a dataset that complies that specification and a dataset that doesn't comply that specification]
 
-## Specification of bias 
+### Large
+
+### Accurate
+
+### Classified
+
+### Readable 
+
+### Domain specific
+
+### Relevant
+
+## Types of bias of datasets. 
+[For each types of bias expand the definitions from the booklet and be specific in why (if applicable) are these biases unfair or inaccurate]
+
+### Confirmation bias: 
+
+### Historical bias: 
+
+### Labelling bias:
+
+
+### Linguistic bias:
+
+### Sampling bias:
+
+### Selection bias:
+
+## Processing the data
 
 ## Preprocessing  the input data
+[Explain how do you clean, select, transform y reduce the data and how you improve the quality and accuracy]
 
+### Cleaning the data.
+
+### Selection
+
+### Transformation
+
+### Reduction of data 
+
+## Bag-of-words algorithm
+[Expand the definition from the booklet with examples so everybody can understand it]
+
+## Train a model
+[Expand the definition from the booklet. Try to find how big and how much calculations do we need for training a chatbot for this context and explain the concepts related to the hardware]
+
+### Clusters of GPU
+
+### Tensor Processing Unit
 
 
 //TO-DO
 
-Bag-of-words
-Biases
-  Confirmation
-  Historical
-  Labelling
-  Linguistic
-  Sampling
-  Selection
+
 Dataset
-Deep learning
+
 Graphical processing unit (GPU)
 Hyperparameter tuning
 Large language model (LLM)
 Latency
-
-
 Memory cell state
 Natural language processing
 Discourse integration
