@@ -45,7 +45,13 @@ In neural networks, a pipeline is a multi-stage process where tasks like data pr
 
 
 ## Large language model (LLM)
-[Define and expand a bit, are there other types of models that are not large or not about language?]
+Large language models are a type of foundation models that are trained on huge quantities of data allowing them to understand and generate natural language and sound like a human alongside other types of content to perform a wide range of tasks. They can infer from context, generate coherent and contextually relevant responses, translate to languages other than English, summarize text, answer questions and even assist in creative writing or code generation tasks. LLMs played a huge role in bringing generative AI to the forefront of public interest, as well as the point where businesses are beginning to adopt 	AI across numerous business functions and use cases. LLMs are easily accessible to the public through interfaces such as Open AIs or Chat GPT. 
+
+There are SMLs which are Small Language Models. These are essentially smaller versions of their LLM counterparts. They have significantly less parameters, typically ranging from a few million to a few billion, compared to LLMs with hundreds of billions or even trillions. This makes them more efficient since they require less computational power and memory.  
+
+There are Convolutional Neural Networks (CNNs) they are the heart of deep learning algorithms that are designed for image recognition and processing tasks, such as object detection, segmentation, and image classification. They use three-dimensional data for image classification and object recognition tasks. 
+
+There are audio models that are designed for speech recognition, sound analysis, and music generation. Such as WaveNet that generates speech or RNNs that models music. 
 
 
 ## Natural language processing model 
