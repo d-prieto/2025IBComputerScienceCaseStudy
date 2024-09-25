@@ -7,7 +7,9 @@ These concepts are relevant to get some information for the concepts that we're 
 [Define a query in general and if there is a difference between query and prompt]
 
 ### Pipeline 
-[Define a pipeline in general and a pipeline applied to Neural Networks]
+Pipeline is a set of data-processing stages, where the output of the previous task is used as input for the next one. This allows for big tasks to be broken down into smaller ones and for the tasks themselves to run concurrently or sequentially.
+
+In neural networks, a pipeline is a multi-stage process where tasks like data preprocessing, feature extraction, model training, tuning, evaluation, and deployment are performed in sequence
 
 ### Architecture of a system
 [Define what is the architecture of a system with several examples, one of them related to Artificial inteligence]
