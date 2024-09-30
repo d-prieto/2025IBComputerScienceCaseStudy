@@ -4,7 +4,10 @@ These concepts are relevant to get some information for the concepts that we're 
 ## More generic lexicon tha is applied here
 
 ### Query
-[Define a query in general and if there is a difference between query and prompt]
+A query is an organized method of retrieving data from an information system for use or modification. In the context of databases, queries are precisely formulated requests. [1]
+
+1. https://www.techopedia.com/definition/5736/query
+
 
 ### Pipeline 
 Pipeline is a set of data-processing stages, where the output of the previous task is used as input for the next one. This allows for big tasks to be broken down into smaller ones and for the tasks themselves to run concurrently or sequentially.
