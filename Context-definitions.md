@@ -1,6 +1,8 @@
 # Previous concepts
 These concepts are relevant to get some information for the concepts that we're going to work later. I divided because they are implicit in later concepts so understanding these are helpful for the next ones. 
 
+_test_
+
 ## More generic lexicon tha is applied here
 
 ### Query
