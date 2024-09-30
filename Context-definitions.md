@@ -61,7 +61,10 @@ There are audio models that are designed for speech recognition, sound analysis,
 [Define what is it and the difference between this concept, an LLM and the concept of Natural Language Understanding]
 
 ## Machine-actionable information
-[Define what is machine-actionable information and what is not or how do create it]
+Machine-actionable information is data which is formatted so that machines can read and interpret it without human action. 
+To create machine-actionable information, format data in a clear, structured way like using codes, tags, or standard formats that computers can easily understand. 
+
+For example: Words on a paper are not considered Machine-actionable information because the machine cannot work with it. The information of what pixels need to be white or black, so that they become words, is Machine-actionable information, because the machine can work with the pixel data. 
 
 ## Extra ball: Tensor
 [Define what is a tensor with your words so your colleagues can more less understand it]
