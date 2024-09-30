@@ -24,6 +24,11 @@ In neural networks, a pipeline is a multi-stage process where tasks like data pr
 
 ### Deployment of a system 
 [Define a bit what is the deployment of a system with a several examples, one of them related to Artificial Inteligence]
+_definition_
+Deployment is the process by which updates, patches, applications and modules are transported from developers' systems to end users and their devices. Therefore the deployment of a system is the transition of all the capabilities to the end users as well as support files and elements needed for maintenance to the end user’s support organizations.
+
+_example_
+Softwares, as a system, can also be deployed. An example would be a user downloads a mobile application from the Integration Store and installs it onto their mobile device.
 
 ## Deep learning
 [Define what is deep learning and its limitations]
