@@ -34,7 +34,7 @@ In neural networks, a pipeline is a multi-stage process where tasks like data pr
 
 ### Layer of a neural network
 
-### Input layer
+### Input layer 
 
 ### Hidden layer
 
