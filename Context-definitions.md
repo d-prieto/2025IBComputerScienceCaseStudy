@@ -7,6 +7,8 @@ _test_
 
 ### Query
 A query is an organized method of retrieving data from an information system for use or modification. In the context of databases, queries are precisely formulated requests. [1]
+#### Difference between a Query and Prompt
+In computer science, a query is a request for information or data from a database, while a prompt is an input or instruction given to a system (like an AI) to generate or execute a specific response. 
 
 1. https://www.techopedia.com/definition/5736/query
 
