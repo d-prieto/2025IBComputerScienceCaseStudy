@@ -79,6 +79,11 @@ There are Convolutional Neural Networks (CNNs) they are the heart of deep learni
 
 There are audio models that are designed for speech recognition, sound analysis, and music generation. Such as WaveNet that generates speech or RNNs that models music. 
 
+References:
+- https://www.ibm.com/topics/large-language-models
+- https://medium.com/@nageshmashette32/small-language-models-slms-305597c9edf2
+- https://www.ibm.com/topics/convolutional-neural-networks
+- https://research.google/blog/audiolm-a-language-modeling-approach-to-audio-generation/
 
 ## Natural language processing model 
 [Define what is it and the difference between this concept, an LLM and the concept of Natural Language Understanding]
