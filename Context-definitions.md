@@ -22,7 +22,21 @@ In neural networks, a pipeline is a multi-stage process where tasks like data pr
 [Define what is the architecture of a system with several examples, one of them related to Artificial inteligence]
 
 ### Decision algorithm 
-[Define what is a decision algorithm with several examples, one of them related to Artificial inteligence]
+**DEFINITION**
+Decision algorithm—also know as the decision tree—is a supervised learning algorithm widely used for machine learning for modeling and predicting outcomes based on input data. It takes the form of a tree, where each internal node represents a test on a specific attribute, each branch signifies a possible attribute value, and each leaf node indicates the final decision or prediction. Decision trees are part of the supervised learning category and apply to both regression and classification tasks.
+
+**EXAMPLES**
+- Decision trees can help with **medical areas** such as diagnosis and selection of a treatment. Additionally, they can evaluating the risks of the various choices and then factoring in personal values, a person can make more informed choices about medical care.
+    
+    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb7e7b41-687b-4e3b-be2c-9d05bcd320ba/b6d4ed08-6cd6-430a-a766-cacb042e7bf4/image.png)
+    
+- Decide trees can also help when it comes to **software engineering**.  For example, this tree outlines potential outcomes based on the severity and probability of each risk, helping teams make informed decisions to ensure projects stay on schedule and within budget.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb7e7b41-687b-4e3b-be2c-9d05bcd320ba/c4923aa9-f387-4168-b3c3-3d3b4a7159a2/image.png)
+
+- **Bank decision trees** can help banks decide whether to launch a new financial product by predicting outcomes based on customer interest and market demand. It helps banks evaluate risks and make well-informed choices to effectively address market needs.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb7e7b41-687b-4e3b-be2c-9d05bcd320ba/43036047-c148-4ee9-bef4-9bccd26e09af/image.png)
 
 ### Deployment of a system 
 [Define a bit what is the deployment of a system with a several examples, one of them related to Artificial Inteligence]
