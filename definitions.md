@@ -6,8 +6,22 @@ Before getting into the case study definitions in Depth I'm using another layer 
 [Expand bit by bit the different concepts from the booklet, with some more explanations in the marked concepts]
 
 ### Critical Path
+A series of activities in a project which, when delayed, will delay the project completion time. In other words, the critical path is the sequence of stages or steps in a process that determine the minimum time required to complete a project. In the context of software development, identifying the critical path helps in pinpointing the tasks that cannot be delayed without affecting the overall timeline. These tasks form the longest sequence in the project's network diagram, and any delay in a critical path task will directly delay the entire project. In system performance, it is the path that dictates the latency of an overall task.\
+
+
+
 
 ### Machine learning dependencies
+
+Machine learning (ML) dependencies refer to the prerequisite components, libraries, or data needed for a machine learning model to function. These include:
+
+1. Training Data: Large datasets needed to train the model.
+2. Libraries & Frameworks: Tools like TensorFlow, PyTorch, or Scikit-learn provide pre-built functions for training and implementing models.
+3. Compute Resources: Powerful GPUs or TPUs (tensor processing units) are often necessary to process complex ML tasks efficiently.
+4. Dependencies Between Models: Sometimes, one ML model's output serves as the input for another, which creates dependency across different models.
+
+Machine learning models rely heavily on these dependencies for accuracy and efficiency. For instance, poor-quality training data or insufficient compute resources can significantly impact the model's performance.
+
 
 ### Natural language understanding (NLU)
 
