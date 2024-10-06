@@ -19,7 +19,32 @@ Pipeline is a set of data-processing stages, where the output of the previous ta
 In neural networks, a pipeline is a multi-stage process where tasks like data preprocessing, feature extraction, model training, tuning, evaluation, and deployment are performed in sequence
 
 ### Architecture of a system
-[Define what is the architecture of a system with several examples, one of them related to Artificial inteligence]
+An architecture of a system is a framework structured that defines the system's components, their relationships and how they interact with each other to achieve their specific goals. It covers both the high-level design and the low-level details of a system.
+
+The architecture of a system can be splitted in different parts:
+- Components of the system: Individual parts or modules that perform specific tasks or functions.
+- Relationships: How the components interact and how they communicate with each other
+- Patterns and Styles: Established metodologies by the framework to structure the components and their interactions
+- The software and hardware used to implement the architecture
+- How the system works in different situations and environments
+Examples:
+- Client-server architecture
+    - As we've seen in topic 3, in this model clients request queries to a server that provide responses to those queries.
+    - A web application where the browser (client) requests web pages from a web server. The server processes the request and sends back the HTML/CSS/JavaScript needed to render the page.
+- Microservices architecture
+    - This architecture breaks down a large application into smaller
+    - An e-commerce platform where different microservices handle user authentication, product catalog, payment processing, and order management. Each service communicates through APIs.
+- Layered architecture
+    - Also seen in topic 3, This architecture organizes the system into layers, each with a specific responsibility, such as presentation, business logic, and data access.
+- Artificial intellignece example
+    - AI architectures typically consist of components like data collection, preprocessing, model training, inference, and feedback loops.
+    - Example: In a recommendation system, the architecture might include:
+        - Data Ingestion Layer: Collects user data and interaction history.
+        - Data Processing Layer: Cleans and transforms data for analysis.
+        - Model Training Layer: Trains machine learning models using historical data.
+        - Inference Layer: Generates real-time recommendations for users.
+        - Feedback Loop: Collects user responses to improve the model over time.
+
 
 ### Decision algorithm 
 **DEFINITION**
