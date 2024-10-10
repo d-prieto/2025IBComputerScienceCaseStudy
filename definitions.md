@@ -86,18 +86,18 @@ Machine learning models rely heavily on these dependencies for accuracy and effi
 ## Types of bias of datasets. 
 [For each types of bias expand the definitions from the booklet and be specific in why (if applicable) are these biases unfair or inaccurate]
 
-### Confirmation bias: 
+### Confirmation bias: The tendency to search for, interpret, favor and recall information in a way that confirms one's preexisting beliefs or hypotheses. In machine learning or AI contexts, this bias can creep into both the data collection process and model development stages. When data is selected or interpreted in a way that aligns with existing assumptions, it skews the model toward reinforcing preconceived notions. This results in models that may ignore contradictory evidence, leading to biased predictions. 
 
-### Historical bias: 
+### Historical bias: Historical bias refers to bias present in data that stems from societal and institutional inequities in the past. Even if a dataset is large and representative of the population, it can still carry the prejudices and systemic inequalities of the time when the data was collected. Models trained on historical data may reproduce and perpetuate unfair practices, such as gender or racial discrimination, because they inherit the biases embedded in the data. Even though the model may be functioning "accurately" by learning from patterns, the predictions or outputs can still perpetuate unjust outcomes. 
 
-### Labelling bias:
+### Labelling bias:  Labeling bias occurs when the labels assigned to data are influenced by subjective opinions, cultural norms, or societal biases. This bias can arise during the annotation process where human annotators may bring in their personal biases when labeling data, such as sentiment, categories, or other classifications. When labels reflect the biased views of the annotators rather than objective reality, models trained on this data will learn these biased associations. This is particularly problematic in areas like sentiment analysis, facial recognition, or object classification where subjectivity is a factor.
 
 
-### Linguistic bias:
+### Linguistic bias: Linguistic bias arises when language models or NLP systems are trained on text data that reflects biased or prejudiced language patterns. This can include biases related to gender, race, socioeconomic status, or other social categories, embedded in the way language is used. Language reflects social and cultural biases, and if these biases are not corrected or balanced in training data, models may perpetuate harmful stereotypes. For example, language models may associate certain professions with men and others with women because of historical gender roles in text. 
 
-### Sampling bias:
+### Sampling bias: Sampling bias occurs when the data collected is not representative of the population or domain it is intended to model. This happens when certain groups or categories are underrepresented or overrepresented, leading to skewed predictions and inaccurate outcomes. A biased sample leads to models that generalize poorly across the population. If the data is skewed toward a particular demographic, the model’s performance will degrade when applied to underrepresented groups, resulting in unfair outcomes.
 
-### Selection bias:
+### Selection bias: Selection bias occurs when the process of selecting data points for analysis introduces systematic differences between the chosen data and the target population. This happens when certain individuals, cases, or events are more likely to be included in the dataset than others, often leading to a distorted view of reality. When data selection is biased, the resulting model will be less generalizable and prone to errors in real-world applications. Selection bias can reinforce disparities if certain groups are consistently left out or overrepresented in the training data. 
 
 ## Processing the data
 
