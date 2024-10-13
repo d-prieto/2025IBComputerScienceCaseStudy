@@ -69,20 +69,65 @@ Machine learning models rely heavily on these dependencies for accuracy and effi
 [For each specification write the definition and an example of a dataset that complies that specification and a dataset that doesn't comply that specification]
 
 ### Large
+A big dataset is represented by a very huge amount of data, typically in the millions or more, which can be comprehensively analyzed to discover patterns. The size is adequate for effectively training machine learning models.
+
+Example
+For instance, social network datasets like Instagram or TikTok store massive amounts of data such as posts, likes, comments, etc. These datasets provide ample data for research, analysis, or improving recommendation algorithms, which show us posts we want to see.
+
+Bad example
+A dataset that holds a small amount of data, such as only a few rows from a small grocery store. This would not be useful for deep learning as it lacks the large amount of data needed for analysis or training.
 
 ### Accurate
+An accurate dataset closely reflects the real-world situation it depicts, with very few errors, ensuring correctness, up-to-date status, and data precision.
 
+Example
+A dataset used by hospitals, which contains up-to-date patient diagnoses and health records.
+
+Bad example
+A dataset where images are incorrectly labeled, such as vegetables being named fruits. This would negatively impact any analysis.
 ### Classified
+A classified dataset is organized into specific categories or classes, making it easier to analyze.
 
+Example
+A dataset with clearly labeled images categorized into ten distinct groups, such as vehicles classified as airplanes, cars, motorcycles etc.
+
+Bad example
+A dataset with images that are not clearly labeled and randomized, requiring someone to label them individually.
 ### Readable 
+A readable dataset is formatted in a standard computer language, making it automatically readable by a web application or computer system.
 
+Example
+Spreadsheets with header columns that can be exported as comma-separated values (CSV).
+
+Bad example
+A poorly formatted dataset stored in a proprietary or binary format, without documentation. It would be difficult to parse or understand without specific tools.
 ### Domain specific
+A domain-specific dataset contains data relevant to a particular field or industry, allowing experts to derive meaningful insights and develop specialized models.
 
+Example
+A dataset used in medicinal chemistry, containing data on specific chemical reactions. This kind of dataset is focused on the relevant field.
+
+Bad example
+A generic dataset for sea animals that contains data on land mammals. This would not be useful for scientists trying to develop models focused on sea animals.
 ### Relevant
+A relevant dataset contains data directly related to the research or analysis task, aligning with the objectives and goals of the study.
 
+Example
+A dataset for an underwater study containing data on sea animals and underwater plants, all relevant to the research topic.
+
+Bad example
+A dataset on pet ownership used to study global economic trends, which would be irrelevant to the context of the research.
 ### The concepts of synthetic and real data in this context
+This is artificially generated data created using algorithms to simulate real-world conditions. It is useful for training models when real data is scarce or privacy is a concern. Synthetic data can create large datasets without violating privacy laws but may lack the complexity and variability of real-world data.
 
+Example
+A computer-generated dataset that simulates credit card transactions to test a fraud detection model without using actual customer data.
 
+Real Data
+This is data collected from real-world observations or events. Real data is often messier, with noise, missing values, and inconsistencies, but it reflects actual scenarios. It is generally more accurate for building predictive models in real applications.
+
+Example
+Actual credit card transaction records used to train a model to detect fraudulent activities.
 ## Types of bias of datasets. 
 [For each types of bias expand the definitions from the booklet and be specific in why (if applicable) are these biases unfair or inaccurate]
 
