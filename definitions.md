@@ -168,9 +168,5 @@ Actual credit card transaction records used to train a model to detect fraudulen
 ### Tensor Processing Unit (TPU)
 
 ## Deploying a model
-[Expand the definition from the booklet. Try to find how much calculations and how big we need our servers to handle this type of chatbot or if we need to use Infrastructure As A Service (IaaS)]
-
-
-
-
-Weights
+Deploying a machine learning model involves transitioning a trained model from its development environment to a production system, where it can perform real-time tasks such as generating predictions or interacting with users, as in a chatbot. This process requires setting up the necessary infrastructure to ensure the model runs efficiently, handling factors like computational power, memory, and storage. For large-scale models, such as those used for natural language processing (NLP), significant hardware resources like GPUs (Graphics Processing Units) or TPUs (Tensor Processing Units) are often needed to ensure fast inference and low latency. Additionally, it’s crucial that the infrastructure is flexible to handle fluctuating demand, especially for real-time applications with high user interaction. 
+Deploying on Infrastructure as a Service (IaaS) platforms, such as Amazon Web Services (AWS) or Google Cloud Platform (GCP), is often the best approach. These platforms provide elastic scaling, advanced hardware, and cost-efficiency by allowing businesses to pay only for the resources they use. IaaS also supports automatic scaling and load balancing, ensuring that the chatbot performs well under varying loads and maintains high availability. In short, IaaS solutions offer the flexibility and power required to deploy, scale, and maintain large models like those used in sophisticated chatbots.
