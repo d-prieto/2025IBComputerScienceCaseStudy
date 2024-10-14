@@ -7,8 +7,8 @@ Latency refers to a delay or lag in response time and is used in various context
 
 ### 1. Computing and Networking
 Definition: Latency refers to the time it takes for data to travel from its source to its destination.
-Example: The time it takes for a signal to be sent from your computer to a server and back is called network latency.
-High Latency: Causes lag or delay in data transmission, affecting real-time applications like video calls or online gaming.
+<be> Example: The time it takes for a signal to be sent from your computer to a server and back is called network latency.
+<be> High Latency: Causes lag or delay in data transmission, affecting real-time applications like video calls or online gaming.
 Low Latency: Means faster communication and is ideal for tasks that require quick responses, like high-frequency trading.
 
 ### 2. Audio and Music Production
