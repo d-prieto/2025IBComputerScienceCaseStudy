@@ -54,11 +54,23 @@ Machine learning models rely heavily on these dependencies for accuracy and effi
 ## Different types of analysis of a phrase by a Natural Language Processing Model
 [Do a table of different types of analysis of a phrase and then explain them and their relationship with this context]
 
-### Discourse integration
+### Discourse Integration
+(Also known as Contextual Analysis) is when a program also takes contextual clues of the text in order to understand it.
+
+For example if the program sees "This is not true", it is hard to understand what exactly is being reffered to by "this." By looking at the sentance before and after (context) it will be more clear, what the text is talking about
+
 ### Lexical analysis
+(Also known as Morphological analysis) is the process of the program breaking the text down into paragraphs, sentences, and words. Using this, the text is not analysed as a whole, but words are seen as components.
 ### Pragmatic analysis
+Is a process of the program deriving meaning from the cultural norms of the text.
+For example, if the text sees "I heart you" it will understand that here the noun heart replaces the verb "love" and Pragmatic analysis is used to understand this.
 ### Semantic analysis
+Is used to undertsand the literal meaning of the words, without any non-direct meaning or interpretation to analyse the text for meaningfulness. 
+For example such sentance as "hot ice-cream" will not be flagged as okay, because it's literla meaning is unclear.
 ### Syntactical analysis (parsing)
+is used to analyse the proper order of the wording. It is able to transform the words a bit in order to make sense of the sentance. 
+For example if the sentence "train is going station to the Fred,"
+
 
 ## Recurrent neural network (RNN)
 [Build from the understanding of Neural Networks and gradient of a function from up above and explain the different concepts]
