@@ -69,7 +69,9 @@ Is used to undertsand the literal meaning of the words, without any non-direct m
 For example such sentance as "hot ice-cream" will not be flagged as okay, because it's literla meaning is unclear.
 ### Syntactical analysis (parsing)
 is used to analyse the proper order of the wording. It is able to transform the words a bit in order to make sense of the sentance. 
-For example if the sentence "train is going station to the Fred,"
+For example if the sentence "train is going station to the Fred," it will get flagged and possibly changed to "Fred is going to the train station." The program is able to detect such inproper sentences due to syntactical analysis.
+
+1. https://www.linkedin.com/pulse/natural-language-processing-nlp-gaurav-haramkar#:~:text=Discourse%20Integration%2FContextual%20Analysis%20%2D%20Discourse,This%22%20in%20the%20previous%20sentences.
 
 
 ## Recurrent neural network (RNN)
