@@ -93,7 +93,23 @@ Softwares, as a system, can also be deployed. An example would be a user downloa
 
 ## Dataset
 [Define what is a dataset of a Deep learning network with some examples. Try to get specific]
+Deep learning data refers to the datasets used to train, validate, and test deep learning models. For this type of dataset it is much better if it contains huge amount of data from which the model can be trained on (the more the better).
+First you input data like image, video, text etc. After that the model tries to output the most accurate prediction by using labels (as categories) ---> if you put an image of a cat it will try to predict output with the label named cat.
+It has 3 splits which assures that the model is well trained, validated and most importantly trained effectively:
+Training set is used to train neural network by adjusting its parameters, in this phase the model learns patterns and relationships in the data ---> this is usually the largest portion of the dataset.
+Validation set is used DURING the training it helps to set and adjust the model's settings, such as its structure and training parameters ---> it shows how well the model is expected to perform on new, unseen data.
+Test set is used to provide a final, unbiased evaluation of the model after it has been fully trained. It assesses how well the model generalizes to completely unseen data ---> model is NEVER EXPOSED to this test set (so we could determine its performance on real world scenarios)
 
+We also have types of DATA
+## Structured data:
+Data that follows a pattern or has a predefined columns for example classification
+## Unstructured data:
+Data that doesn't follow predefined pattern for example images or audio
+
+Example ---> dataset for electricity usage it does time series forecasting which helps to predict the future electricity consuption based on past consuption patterns.
+Dataset that contains a collection of ECG - (electrocardiogram) signals to detect arrhythmia it does time series classification to define if ECG signal should be labeled as normal or abnormal.
+
+---> Each model tries to predict some possible outcome
 
 ## Large language model (LLM)
 Large language models are a type of foundation models that are trained on huge quantities of data allowing them to understand and generate natural language and sound like a human alongside other types of content to perform a wide range of tasks. They can infer from context, generate coherent and contextually relevant responses, translate to languages other than English, summarize text, answer questions and even assist in creative writing or code generation tasks. LLMs played a huge role in bringing generative AI to the forefront of public interest, as well as the point where businesses are beginning to adopt 	AI across numerous business functions and use cases. LLMs are easily accessible to the public through interfaces such as Open AIs or Chat GPT. 
