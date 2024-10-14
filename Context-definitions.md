@@ -110,6 +110,22 @@ References:
 - https://www.ibm.com/topics/convolutional-neural-networks
 - https://research.google/blog/audiolm-a-language-modeling-approach-to-audio-generation/
 
+### Discourse Integration
+(Also known as Contextual Analysis) is when a program also takes contextual clues of the text in order to understand it.
+
+For example if the program sees "This is not true", it is hard to understand what exactly is being reffered to by "this." By looking at the sentance before and after (context) it will be more clear, what the text is talking about
+
+### Lexical analysis
+(Also known as Morphological analysis) is the process of the program breaking the text down into paragraphs, sentences, and words. Using this, the text is not analysed as a whole, but words are seen as components.
+### Pragmatic analysis
+Is a process of the program deriving meaning from the cultural norms of the text.
+For example, if the text sees "I heart you" it will understand that here the noun heart replaces the verb "love" and Pragmatic analysis is used to understand this.
+### Semantic analysis
+Is used to undertsand the literal meaning of the words, without any non-direct meaning or interpretation to analyse the text for meaningfulness. 
+For example such sentance as "hot ice-cream" will not be flagged as okay, because it's literla meaning is unclear.
+### Syntactical analysis
+is used to analyse the proper order of the wording. It is able to transform the words a bit in order to make sense of the sentance. 
+For example if the sentence "train is going station to the Fred,"
 ## Natural language processing model 
 [Define what is it and the difference between this concept, an LLM and the concept of Natural Language Understanding]
 
@@ -117,7 +133,7 @@ References:
 Machine-actionable information is data which is formatted so that machines can read and interpret it without human action. 
 To create machine-actionable information, format data in a clear, structured way like using codes, tags, or standard formats that computers can easily understand. 
 
-For example: Words on a paper are not considered Machine-actionable information because the machine cannot work with it. The information of what pixels need to be white or black, so that they become words, is Machine-actionable information, because the machine can work with the pixel data. 
+For example: Words on a paper are not considered Machine-actionable information because the machine cannot work with it. The information of what pixels need to be white or black, so that they become a picture, is Machine-actionable information, because the machine can work with the pixel data. 
 
 ## Extra ball: Tensor
 [Define what is a tensor with your words so your colleagues can more less understand it]
