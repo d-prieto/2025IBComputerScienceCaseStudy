@@ -7,13 +7,13 @@ Latency refers to a delay or lag in response time and is used in various context
 
 ### 1. Computing and Networking
 Definition: Latency refers to the time it takes for data to travel from its source to its destination.
-<be> Example: The time it takes for a signal to be sent from your computer to a server and back is called network latency.
-<be> High Latency: Causes lag or delay in data transmission, affecting real-time applications like video calls or online gaming.
-Low Latency: Means faster communication and is ideal for tasks that require quick responses, like high-frequency trading.
+<br> Example: The time it takes for a signal to be sent from your computer to a server and back is called network latency.
+<be> <br> High Latency: Causes lag or delay in data transmission, affecting real-time applications like video calls or online gaming.
+<be> <be> Low Latency: Means faster communication and is ideal for tasks that require quick responses, like high-frequency trading.
 
 ### 2. Audio and Music Production
 Definition: In audio processing, latency is the delay between when an audio signal is input (e.g., you play a note) and when it’s heard through the output (e.g., your speakers).
-Example: When recording music, if there is too much latency, there can be an audible delay between what you play and what you hear back.
+<br><br> Example: When recording music, if there is too much latency, there can be an audible delay between what you play and what you hear back.
 Importance: Low audio latency is crucial for live performances or real-time recording.
 
 ### 3. Telecommunications
