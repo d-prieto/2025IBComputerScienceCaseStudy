@@ -6,20 +6,20 @@ Before getting into the case study definitions in Depth I'm using another layer 
 Latency refers to a delay or lag in response time and is used in various contexts. Here’s a breakdown of how it’s understood in different fields:
 
 ### 1. Computing and Networking
-Definition: Latency refers to the time it takes for data to travel from its source to its destination.
-<br> Example: The time it takes for a signal to be sent from your computer to a server and back is called network latency.
-<be> <br> High Latency: Causes lag or delay in data transmission, affecting real-time applications like video calls or online gaming.
-<be> <be> Low Latency: Means faster communication and is ideal for tasks that require quick responses, like high-frequency trading.
+**Definition:** Latency refers to the time it takes for data to travel from its source to its destination.
+<br> **Example:** The time it takes for a signal to be sent from your computer to a server and back is called network latency.
+<be> <br> **High Latency:** Causes lag or delay in data transmission, affecting real-time applications like video calls or online gaming.
+<be> <be> **Low Latency:** Means faster communication and is ideal for tasks that require quick responses, like high-frequency trading.
 
 ### 2. Audio and Music Production
-Definition: In audio processing, latency is the delay between when an audio signal is input (e.g., you play a note) and when it’s heard through the output (e.g., your speakers).
-<br><br> Example: When recording music, if there is too much latency, there can be an audible delay between what you play and what you hear back.
-Importance: Low audio latency is crucial for live performances or real-time recording.
+**Definition:** In audio processing, latency is the delay between when an audio signal is input (e.g., you play a note) and when it’s heard through the output (e.g., your speakers).
+<br><br> **Example:** When recording music, if there is too much latency, there can be an audible delay between what you play and what you hear back.
+**Importance:** Low audio latency is crucial for live performances or real-time recording.
 
 ### 3. Telecommunications
-Definition: In telecommunications, latency refers to the time delay experienced in a system when transmitting a signal.
-Example: Latency in satellite communications, where signals travel to space and back, leading to noticeable delay during calls.
-Importance: Lower latency is crucial for seamless communication, especially in real-time services like VoIP.
+**Definition:** In telecommunications, latency refers to the time delay experienced in a system when transmitting a signal.
+<br> <br>**Example:** Latency in satellite communications, where signals travel to space and back, leading to noticeable delay during calls.
+<br> <br> **Importance:** Lower latency is crucial for seamless communication, especially in real-time services like VoIP.
 
 ### 4. Cloud Computing
 Definition: In cloud services, latency refers to the time delay between a request made by a user (such as accessing data or running a computation) and the time it takes to receive a response.
