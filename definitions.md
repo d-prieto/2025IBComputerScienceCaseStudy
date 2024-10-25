@@ -84,13 +84,13 @@ For example if the sentence "train is going station to the Fred," it will get fl
 ### Layer weight
 
 ### Hyperparameter tuning
-
+Hyperparameter tuning is the process of finding the best configuration settings for parameters in a machine learning model that aren't learned from data, like learning rate or batch size. Its purpose is to optimize the machine performance by testing a lot of different parameter combinations. Most commons methods used are: grid search, random search, Bayesian Optimization and evolutionary algorithms. Each of the methods make more efficient the machine.
 ### Backpropagation through time (BPTT)
-
+Is an algorithm for training RNNs on sequential data. The RNN follow steps to learn, calculates errors at each step, and use these errors to adjust weights. BPTT enables RNN to learn from temporal dependencies but it can struggle with long sequences because of vanishing or exploding gradients
 ### Loss function
-
+It measures the difference between a RNN model and its actual target values. Common types used are Mean Squared Error for regression, Cross-Entropy Loss for classification, and Hinge Loss for SVMs. The loss function choice depends on the problem type and impacts the model’s learning quality.
 ### Vanishing gradient
-
+The Vanishing gradient problem happens in deep Neural Networks when gradients become to small for backpropagation, which means that it unable learning from early layers. This issue affects the model's ability to learn complex patterns. Solutions commonly used are ReLU activations, Batch Normalization, or architectures like LSTMs.
 ## Long short-term memory (LSTM)
 [Expand the the definition from the booklet with examples so everybody can understand it]
 
