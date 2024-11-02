@@ -9,4 +9,5 @@ You will find:
 - [Context definitions so we can have more understanding of later more complex concepts](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/Context-definitions.md)
 - [The concepts of the booklet researched by the students.](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/definitions.md)
 - [An exercise of evaluating datasets for different purposes](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/dataset-exercise.md)
+- [Possible questions that the teacher think that can happen](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/possibleQuestions.md)
 - Test questions made by the teacher. 
