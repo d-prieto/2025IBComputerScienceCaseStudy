@@ -30,7 +30,7 @@ Latency refers to a delay or lag in response time and is used in various context
 **Definition:** In the context of storage, latency refers to the time delay between when a request for data is made and when the data is actually retrieved from a storage device.
 <br> **Example:** On an SSD (solid-state drive), latency is much lower than on a traditional hard drive, resulting in faster access to files.
 
-#### Critical Path
+### Critical Path
 A series of activities in a project which, when delayed, will delay the project completion time. In other words, the critical path is the sequence of stages or steps in a process that determine the minimum time required to complete a project. In the context of software development, identifying the critical path helps in pinpointing the tasks that cannot be delayed without affecting the overall timeline. These tasks form the longest sequence in the project's network diagram, and any delay in a critical path task will directly delay the entire project. In system performance, it is the path that dictates the latency of an overall task.\
 
 
