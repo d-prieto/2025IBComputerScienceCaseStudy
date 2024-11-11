@@ -13,7 +13,9 @@ Based on this part of the paper 3 (at the end) here there are several questions 
 * What are the power requirements that we need to create a bot like this? (in comparassion with a human helpdesk)
 
 
-Answers 
+## Answers 
+
+
 * Evaluate three different ways of reducing the latency of the system:
 
   In order to reduce the latency of a system, we can manage the dependencies. When these dependencies are tightly coupled (meaning they rely heavily on each other), they can create bottlenecks if one component is delayed or experiences an error. Reducing or decoupling dependencies can improve system performance and responsiveness by allowing different parts of the system to operate more independently. There can be three ways:
