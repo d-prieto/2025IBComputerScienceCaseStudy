@@ -22,7 +22,7 @@ Answers
 
 * Analyize the different stages of natural language processing and what are the useful inputs (for the context of the insurance company bot) that we can find at each step.
 
-  * The five different stages of natural language processing are lexical analysis, syntactic analysis, semantic analysis, discourse integration, and pragmatic analysis. 
+  The five different stages of natural language processing are lexical analysis, syntactic analysis, semantic analysis, discourse integration, and pragmatic analysis. 
   <br>
   The lexical analysis and syntactic analysis try to understand the structural aspects of language. In lexical analysis, the input is broken down into words and sentences. In this step, the customer’s raw text is used as input. It is very useful to have an input in which the words are separated and not together. 
   <br>
