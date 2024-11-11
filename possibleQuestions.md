@@ -22,14 +22,14 @@ Answers
 
 * Analyize the different stages of natural language processing and what are the useful inputs (for the context of the insurance company bot) that we can find at each step.
 
-The five different stages of natural language processing are lexical analysis, syntactic analysis, semantic analysis, discourse integration, and pragmatic analysis. 
-<br>
-The lexical analysis and syntactic analysis try to understand the structural aspects of language. In lexical analysis, the input is broken down into words and sentences. In this step, the customer’s raw text is used as input. It is very useful to have an input in which the words are separated and not together. 
-<br>
-The syntactic analysis is about understanding the grammar of the sentence. For example: “He” is the subject, “ate” is a verb, and “poison” is the object. During this step, it is useful to have inputs where it follows the grammar of the sentences of the dataset that the model is trained on. So a sentence without a proper grammatical structure or numbers may not be useful during this step. The other three steps are focused on the understanding meaning of the language. 
-<br>
-After identifying the structure of the sentence, the model runs a semantic analysis. Here the model is trying to understand the meaning of the sentence. The model tries to derive an objective meaning rather than trying to interpret it in a wider context. The useful inputs here will be insurance-specific entities and concepts. 
-<br>
-The next step is discourse integration. Here, the model goes on to integrate the meaning of the sentence into the wider context of the whole conversation. This requires interpretations and can be more subjective. The useful inputs here will be the data of previous conversations within the chat or other chats, customer information, and any other recent queries that can all help the chatbot with more context, making the answer more accurate for the customer.
-<br>
-Lastly, the pragmatic analysis analyzes the social, legal, and cultural context of the sentence. In this case, context-specific knowledge, such as insurance policies or legal standards and typical scenarios are useful inputs. For instance, knowing that "make a claim" usually implies urgency which can guide the chatbot toward a helpful, sensitive response.
+  * The five different stages of natural language processing are lexical analysis, syntactic analysis, semantic analysis, discourse integration, and pragmatic analysis. 
+  <br>
+  The lexical analysis and syntactic analysis try to understand the structural aspects of language. In lexical analysis, the input is broken down into words and sentences. In this step, the customer’s raw text is used as input. It is very useful to have an input in which the words are separated and not together. 
+  <br>
+  The syntactic analysis is about understanding the grammar of the sentence. For example: “He” is the subject, “ate” is a verb, and “poison” is the object. During this step, it is useful to have inputs where it follows the grammar of the sentences of the dataset that the model is trained on. So a sentence without a proper grammatical structure or numbers may not be useful during this step. The other three steps are focused on the understanding meaning of the language. 
+  <br>
+  After identifying the structure of the sentence, the model runs a semantic analysis. Here the model is trying to understand the meaning of the sentence. The model tries to derive an objective meaning rather than trying to interpret it in a wider context. The useful inputs here will be insurance-specific entities and concepts. 
+  <br>
+  The next step is discourse integration. Here, the model goes on to integrate the meaning of the sentence into the wider context of the whole conversation. This requires interpretations and can be more subjective. The useful inputs here will be the data of previous conversations within the chat or other chats, customer information, and any other recent queries that can all help the chatbot with more context, making the answer more accurate for the customer.
+  <br>
+  Lastly, the pragmatic analysis analyzes the social, legal, and cultural context of the sentence. In this case, context-specific knowledge, such as insurance policies or legal standards and typical scenarios are useful inputs. For instance, knowing that "make a claim" usually implies urgency which can guide the chatbot toward a helpful, sensitive response.
