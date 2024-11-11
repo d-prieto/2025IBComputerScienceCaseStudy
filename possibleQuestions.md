@@ -35,3 +35,13 @@ Based on this part of the paper 3 (at the end) here there are several questions 
   The next step is discourse integration. Here, the model goes on to integrate the meaning of the sentence into the wider context of the whole conversation. This requires interpretations and can be more subjective. The useful inputs here will be the data of previous conversations within the chat or other chats, customer information, and any other recent queries that can all help the chatbot with more context, making the answer more accurate for the customer.
   <br>
   Lastly, the pragmatic analysis analyzes the social, legal, and cultural context of the sentence. In this case, context-specific knowledge, such as insurance policies or legal standards and typical scenarios are useful inputs. For instance, knowing that "make a claim" usually implies urgency which can guide the chatbot toward a helpful, sensitive response.
+
+To what extend is ethical use a bot like this?
+Answer:
+In order to ethically use this bot there are a few conditions that developers must adhere to. 
+The first condition is constant moderating and checking of paterns. This is to ensure that the bot is not biased and does not give discriminatory answers. This is quite important for users. 
+Another very important thing for me is security and privacy. Every user is very much concerned about their data. So the developer should minimize the requests for any information to avoid conflicts. Also if there is any data collection then the user should be aware of it and he should agree to it.
+
+Also the important thing is to check the information for fake. In order for the bot to be safe to use the developer must implement information verification in it. After all, if this does not happen, the user will be misled.
+
+In summary, I can say that the bot is ethical to use if the above conditions are met. 
