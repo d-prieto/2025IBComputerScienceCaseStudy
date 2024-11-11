@@ -45,3 +45,11 @@ Another very important thing for me is security and privacy. Every user is very 
 Also the important thing is to check the information for fake. In order for the bot to be safe to use the developer must implement information verification in it. After all, if this does not happen, the user will be misled.
 
 In summary, I can say that the bot is ethical to use if the above conditions are met. 
+
+What would we need to have a good dataset for our insurance company?
+  To ensure that the insurance company will have a good dataset we need to determine the accuracy, responsiveness and overall user experience of the chatbot. As the company has right now poorly trained chatbot which needs to have more diverse dataset. This can be done by focusing on domain specific data, data diversity, labeling accuracy and ethical considerations.
+Domain specific data will ensure that chatbot will deliver accurate responses. This will include insurance claims, customer service interactions, policy documents. By having domain specific data we ensure that the responses will be both accurate and relevant to the context.
+Chatbot to be successful needs to have diverse and high quality data. This involves the data to be specific to the intended purpose and well as incorporating wider data from different geographical locations which reduces the risk of having bias present. By having multiple servicing on the chatbot we can assure that the chatbot won´t have biases and if so they will be removed.
+Chatbot´s dataset will include real world scenarios as well as synthetic data which will assure to simulate rare occasions for which the chatbot might not have been well enough prepared for.
+The accurate data labeling will be important as it helps chatbot to correctly interpret and respond to the customer's needs. This would help with avoiding general responses that do not respond specifically to the questions asked. 
+
