@@ -11,3 +11,6 @@ Based on this part of the paper 3 (at the end) here there are several questions 
 * What would we need to have a good dataset for our insurance company?
 * To what extend is ethical use a bot like this?
 * What are the power requirements that we need to create a bot like this? (in comparassion with a human helpdesk)
+
+
+Answers 
