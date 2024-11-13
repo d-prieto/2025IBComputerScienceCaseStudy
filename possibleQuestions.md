@@ -13,7 +13,7 @@ Based on this part of the paper 3 (at the end) here there are several questions 
 * What are the power requirements that we need to create a bot like this? (in comparassion with a human helpdesk)
 
 
-## Answers 
+## Answers (by students)
 
 
 * Evaluate three different ways of reducing the latency of the system:
