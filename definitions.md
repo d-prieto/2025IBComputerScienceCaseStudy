@@ -190,16 +190,16 @@ Actual credit card transaction records used to train a model to detect fraudulen
 ## Preprocessing  the input data
 [Explain how do you clean, select, transform y reduce the data and how you improve the quality and accuracy]
 
-### Cleaning the data.
+### Cleaning the data: Data Cleaning is the process of removing or fixing incorrect, duplicate, or incomplete information from a dataset to ensure that machine learning models—such as neural networks—are trained on the highest-quality data possible.
 
-### Selection
+### Selection: Selection, or Feature Selection, is choosing the most relevant variables from a dataset so a neural network can learn efficiently, without being overwhelmed by unnecessary or redundant information.
 
-### Transformation
+### Transformation: Transformation is converting or modifying data into a form that is better suited for a neural network’s training process, often making it more uniform or reducing skewness.
 
-### Reduction of data 
+### Reduction of data: Data Reduction is about compressing a large set of features into fewer, more meaningful components while retaining as much information as possible for the neural network to learn effectively.
 
-## Bag-of-words algorithm
-[Expand the definition from the booklet with examples so everybody can understand it]
+## Bag-of-words algorithm: Bag-of-Words (BoW) is a fundamental technique in natural language processing that represents text as a collection of word counts, ignoring word order or grammar.
+
 
 ## Training a model
 [Expand the definition from the booklet. Try to find how big and how much calculations do we need for training a chatbot for this context and explain the concepts related to the hardware]
