@@ -95,9 +95,19 @@ The Vanishing gradient problem happens in deep Neural Networks when gradients be
 [Expand the the definition from the booklet with examples so everybody can understand it]
 
 ### Memory cell state
+- The cell state is the memory unit of the network.
+- The cell state carries information that can be stored in, written to, or read from a previous cell state via gates that open or close.
+- Information from previous steps can enter the cell state and carry relevant information throughout the processing of the sequence.
+- A single classic Long Short Term Memory unit consists of a cell state and its three gates: an input gate, an output gate and a forget gate.
+
 ### Input gate
+It works as an input to the cell state. It consists of two parts; first, we pass the previous hidden state and current input into a sigmoid function to decide which values will be updated. Then, pass the same two inputs into the tanh activation to regulate the network. Finally, multiply the tanh output with the sigmoid output to decide which information is important to update the cell state. 
+
 ### Forget gate
+The first block represented in the LSTM architecture is the forget gate. The forget gate decides what is relevant to keep from the prior cell state. The information from the current input and the previous hidden state is passed through the sigmoid activation function. If the output value is closer to 0 means forget, and the closer to 1 means to retain. 
+
 ### Output gate 
+The hidden state contains information on previous inputs and is used for prediction. The output gate regulates the present hidden state. The previous hidden state and current input are passed to the sigmoid function. This output is multiplied with the output of the tanh function to obtain the present hidden state. The current state and present hidden state are the final outputs from a classic LSTM unit.  
 
 ## Transformer Neural Networks (Transformer NNs)
 [Build from the understanding of Neural Networks and gradient of a function from up above and explain the different concepts]
