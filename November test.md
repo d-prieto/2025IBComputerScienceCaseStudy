@@ -1,5 +1,8 @@
 # November test questions
 
+
+ℹ️In this exam, since it was the first Paper 3 exam the last question (6) have been nerfed to 6 marks instead of 12 but it should marked as a 12 mark boundary. (to add up to 30 marks) ℹ️
+
 1)	Identify two reasons why we use GPUs or TPUs to train NN. [2]
 2)	Define the term Long short-term memory [2]
 3)	Explain how the ethical challenges of transparency and accountability and responsibility could be tackled (if it can be tackled) using a LLM in the context of RAKT. [4]
