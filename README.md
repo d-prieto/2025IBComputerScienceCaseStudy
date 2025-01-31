@@ -10,4 +10,5 @@ You will find:
 - [The concepts of the booklet researched by the students.](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/definitions.md)
 - [An exercise of evaluating datasets for different purposes](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/dataset-exercise.md)
 - [Possible questions that the teacher think that can happen](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/possibleQuestions.md)
+- [Test done in November with similar questions and answers from students](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/November%20test.md)
 - [Test questions made by the teacher.](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/Training%20test.md) 
