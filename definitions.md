@@ -3,6 +3,7 @@
 Before getting into the case study definitions in Depth I'm using another layer of definitions a bit more simple to later get into these concepts. You can access [here](https://github.com/d-prieto/2025IBComputerScienceCaseStudy/blob/main/Context-definitions.md)
 
 ## Latency
+
 Latency refers to a delay or lag in response time and is used in various contexts. Here’s a breakdown of how it’s understood in different fields:
 
 #### 1. Computing and Networking
