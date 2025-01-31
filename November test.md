@@ -28,9 +28,11 @@ Long short-term memory (LSTM) - is a type of recurrent neural network designed t
 full marks answer: 
 
 _1. Transparency and accountability_
+
 The chatbots's large language model may have issues with transparency, as the decision-making will be unclear and it will not allow the users or developers to see the reasoning behind the decision. This may lead to problems with invalid responses and the company representative will be accountable(held liable) for the mistakes. The LLM can be restructured or guven only specific data foe trining to avoid the problem.
 
 _2. Responsibility_
+
 In a business like RAKT, an insurance company, it is veyr important that the data given to the customers is accurate. If a worker shares wrong forms with a customer, the worker will be held accountable and punished. However, in the case of the chatbot, the error-rate will probably reduce but it will be harder to put blame on a specific person when the errors do occur. This may be tackled by having a representative, who will take over when the customers are ont satisfied with the service of the bot. The chatbot will further be trained on these cases to improve the LLM.
 
 
