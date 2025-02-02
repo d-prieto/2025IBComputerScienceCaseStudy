@@ -209,11 +209,13 @@ Actual credit card transaction records used to train a model to detect fraudulen
 
 ### Reduction of data: Data Reduction is about compressing a large set of features into fewer, more meaningful components while retaining as much information as possible for the neural network to learn effectively.
 
-## Bag-of-words algorithm: Bag-of-Words (BoW) is a fundamental technique in natural language processing that represents text as a collection of word counts, ignoring word order or grammar.
+## Bag-of-words algorithm: Bag-of-Words (BoW) is a fundamental technique in natural language processing that represents text as a collection of word counts, ignoring word order or grammar. Used to represent the processing of natural languages and the retrieval of information. In general, it's a text representation technique which describes a document as a collection of words, with no grammar or word order, only focusing on preserving frequency. Thereby converting the textual data into a numerical one.
 
 
 ## Training a model
-[Expand the definition from the booklet. Try to find how big and how much calculations do we need for training a chatbot for this context and explain the concepts related to the hardware]
+This refers to the act of teaching an algorithm to recognize patterns in data by tailoring its parameters from test runs using training datasets, thereby achieving optimization of the model's parameters. 
+
+In the context of training a chatbot, massive datasets and computational power is required. Depending on hardware efficiency the training may take weeks to months. In terms of costs, for examples, training GPT-3 costs millions of dollars because GPU is used and also due to the electricity consumption. When considering hardware, it is important to note that GPU's accelerate training by processing thousands of operations in parallel. Other things needed are high speed storage (for data loading) and RAM (to store model weights). So, training a model requires a lot of resources, like massive datasets, high performance GPUs and terabytes of memory. Often, companies rely on things like cloud AI servies in order to ditribute the workload. 
 
 ### Clusters of GPU
 
