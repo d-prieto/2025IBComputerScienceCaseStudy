@@ -90,7 +90,7 @@ An analogy with this diagram:
 ### Layer of a neural network
 
 ### Input layer 
-
+Input layer refers to the first layer of nodes in an artificial neural network. This layer receives input data from the outside world. An artificial neural network (ANN) is a machine learning model inspired by the structure and function of the human brain.
 ### Hidden layer
 
 ### Output layer
