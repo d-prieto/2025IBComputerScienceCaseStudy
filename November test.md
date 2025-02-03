@@ -18,7 +18,7 @@ Here the students can add their actual answers or their answers after some feedb
 <br> Answer: GPU's and TPU's are great at processing multiple tasks at the same time. So it is great for parallelization due to it having multiple ores or ALU's which can be tasked with different tasks at the same time to run in parallel. Another reason we use GPU's and TPU's is because it has it's own memory called VRAM. This ensures the NN does not use the memory of the other parts of the system.
 
 ### Define the term Long short-term memory [2]
-<br> Long short-term memory is a type of Recurrent Neural Network designed to overcome the problem of vanishing gradient, which results in the model to stop stop learning more. So instead of changing the gradients dramatically during each time stop, we implement LSTM (long short-term memory) to selectively retain and forget information over time so the past data has an affect on the weights, biases and gradients generated during process and tackles the problem of vansihing or exploding gradient.
+<br> Long short-term memory is a type of Recurrent Neural Network designed to overcome the problem of vanishing gradient, which results in the model to stop learning more. So instead of changing the gradients dramatically during each time stop, we implement LSTM (long short-term memory) to selectively retain and forget information over time so the past data has an effect on the weights, biases and gradients generated during process and tackles the problem of vanishing or exploding gradient.
 
 Answer full marks:
 Long short-term memory (LSTM) - is a type of recurrent neural network designed to overcome the problem of vanishing gradient.
