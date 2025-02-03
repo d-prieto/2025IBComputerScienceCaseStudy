@@ -78,6 +78,13 @@ Softwares, as a system, can also be deployed. An example would be a user downloa
 ## Neural network
 [Define Neural Network with examples and explaining the concepts bellow]
 
+### Neuron Example:
+An analogy with this diagram:
+1. Dendrites: are inputs
+2. The cell body processes the data
+3. The axioms sends the data to the next neuron until it reaches the spinal cord where an action is taken.
+https://www.cusabio.com/statics/images/Structure-Neuron.jpg
+
 ### Hyperparameter (in a neural network)
 
 ### Layer of a neural network
