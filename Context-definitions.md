@@ -83,7 +83,7 @@ An analogy with this diagram:
 1. Dendrites: are inputs
 2. The cell body processes the data
 3. The axioms sends the data to the next neuron until it reaches the spinal cord where an action is taken.
-[](https://imgur.com/4ZhsO6M)
+![Neurons](https://imgur.com/4ZhsO6M)
 
 ### Hyperparameter (in a neural network)
 
