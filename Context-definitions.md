@@ -57,11 +57,11 @@ Decision algorithm—also know as the decision tree—is a supervised learning a
     
 - Decide trees can also help when it comes to **software engineering**.  For example, this tree outlines potential outcomes based on the severity and probability of each risk, helping teams make informed decisions to ensure projects stay on schedule and within budget.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb7e7b41-687b-4e3b-be2c-9d05bcd320ba/c4923aa9-f387-4168-b3c3-3d3b4a7159a2/image.png)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb7e7b41-687b-4e3b-be2c-9d05bcd320ba/c4923aa9-f387-4168-b3c3-3d3b4a7159a2/image.png)
 
 - **Bank decision trees** can help banks decide whether to launch a new financial product by predicting outcomes based on customer interest and market demand. It helps banks evaluate risks and make well-informed choices to effectively address market needs.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb7e7b41-687b-4e3b-be2c-9d05bcd320ba/43036047-c148-4ee9-bef4-9bccd26e09af/image.png)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb7e7b41-687b-4e3b-be2c-9d05bcd320ba/43036047-c148-4ee9-bef4-9bccd26e09af/image.png)
 
 ### Deployment of a system 
 [Define a bit what is the deployment of a system with a several examples, one of them related to Artificial Inteligence]
