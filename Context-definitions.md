@@ -144,8 +144,15 @@ To create machine-actionable information, format data in a clear, structured way
 For example: Words on a paper are not considered Machine-actionable information because the machine cannot work with it. The information of what pixels need to be white or black, so that they become a picture, is Machine-actionable information, because the machine can work with the pixel data. 
 
 ## Extra ball: Tensor
-[Define what is a tensor with your words so your colleagues can more less understand it]
+<br> In artificial intelligence (AI) and machine learning (ML), a tensor is essentially a multi-dimensional array used to store and manipulate data efficiently. Think of it as an upgraded version of a matrix that can handle more dimensions.
 
+<br> For example:
+- A scalar (single number) is a 0D tensor (e.g., 5).
+- A vector (list of numbers) is a 1D tensor (e.g., [1, 2, 3]).
+- A matrix (table of numbers) is a 2D tensor (e.g., [[1, 2], [3, 4]]).
+- Anything beyond that (like an image with height, width, and color channels) is a 3D or higher-dimensional tensor.
+<br> In deep learning, frameworks like TensorFlow and PyTorch use tensors to store and process data, such as images, text, or numerical values, making them fundamental to training and running AI models.
+![example of tensor](https://upload.wikimedia.org/wikipedia/commons/b/bc/TensorFaces16_%281%29.png)
 [some information here](https://en.wikipedia.org/wiki/Tensor_(machine_learning))
 
 
