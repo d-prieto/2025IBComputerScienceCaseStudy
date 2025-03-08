@@ -331,7 +331,11 @@ We talked about this in class. Here you have a caption:
 source: https://www.youtube.com/watch?v=AaU6tI2pb3M
 ### What are counterfactual explanations and why is relevant here?
 
+### HIPAA
+//TO-DO
+https://simple.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act
 
+https://compliancy-group.com/hipaa-wiki-a-brief-summary-of-hipaa-rights/
 
 ## Example of using ChagGPT text:
 (don't do this if you want to actually do some notes on something) 
