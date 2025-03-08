@@ -15,3 +15,6 @@ _This was set on a mock exam_
  6)   Discuss the ethical implications of using a chatbot for RAKT and how could be tackled (if they can be tackled). [12] 
 
  
+Markbands
+
+![imagen](https://github.com/user-attachments/assets/641f4821-0a63-47f2-8da7-b2480e1b853c)
