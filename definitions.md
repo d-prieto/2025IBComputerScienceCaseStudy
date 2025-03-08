@@ -31,23 +31,24 @@ Latency refers to a delay or lag in response time and is used in various context
 **Definition:** In the context of storage, latency refers to the time delay between when a request for data is made and when the data is actually retrieved from a storage device.
 <br> **Example:** On an SSD (solid-state drive), latency is much lower than on a traditional hard drive, resulting in faster access to files.
 
+#### Latency refered to RAKT and what it may be influencing it. 
+
+// TO DO BY THE STUDENTS. 
+
 ### Critical Path
+
+![Pert_chart_colored svg](https://github.com/user-attachments/assets/53cac605-8ec3-40d1-8f63-06dbe2cc4648)
+
 A series of activities in a project which, when delayed, will delay the project completion time. In other words, the critical path is the sequence of stages or steps in a process that determine the minimum time required to complete a project. In the context of software development, identifying the critical path helps in pinpointing the tasks that cannot be delayed without affecting the overall timeline. These tasks form the longest sequence in the project's network diagram, and any delay in a critical path task will directly delay the entire project. In system performance, it is the path that dictates the latency of an overall task.\
 
+#### Reference
 
+https://en.wikipedia.org/wiki/Critical_path_method
 
 
 ### Machine learning dependencies
 
-Machine learning (ML) dependencies refer to the prerequisite components, libraries, or data needed for a machine learning model to function. These include:
-
-1. Training Data: Large datasets needed to train the model.
-2. Libraries & Frameworks: Tools like TensorFlow, PyTorch, or Scikit-learn provide pre-built functions for training and implementing models.
-3. Compute Resources: Powerful GPUs or TPUs (tensor processing units) are often necessary to process complex ML tasks efficiently.
-4. Dependencies Between Models: Sometimes, one ML model's output serves as the input for another, which creates dependency across different models.
-
-Machine learning models rely heavily on these dependencies for accuracy and efficiency. For instance, poor-quality training data or insufficient compute resources can significantly impact the model's performance.
-
+// TO - DO BY THE STUDENTS. 
 
 ### Natural language understanding (NLU)
 
@@ -91,7 +92,26 @@ Is an algorithm for training RNNs on sequential data. The RNN follow steps to le
 ### Loss function
 It measures the difference between a RNN model and its actual target values. Common types used are Mean Squared Error for regression, Cross-Entropy Loss for classification, and Hinge Loss for SVMs. The loss function choice depends on the problem type and impacts the model’s learning quality.
 ### Vanishing gradient
+
+![anishing-Gradient-Problem-Graves-2012_W640](https://github.com/user-attachments/assets/7d00de7b-6141-4d40-8ac6-80136a474576)
+
+
+
 The Vanishing gradient problem happens in deep Neural Networks when gradients become to small for backpropagation, which means that it unable learning from early layers. This issue affects the model's ability to learn complex patterns. Solutions commonly used are ReLU activations, Batch Normalization, or architectures like LSTMs.
+
+(this part was added by the teacher)
+
+In recurring neural networks usually the output is reintroduced with the previous input to find the next part of the output. So if you want to answer "What's the weather like in Minessotta?" (the input) the RNN will first have an output of "The" because it's what is most likely to happen and introduce it with the rest. So now the input will be "What's the weather like in Minessotta? The" and then add the word "weather" and so on. The disadvantadge of this is that the importance of the first words will be less and less over time. 
+
+It's called vanishing gradient because it's about the partial derivative. (Gradients are found using derivatives)
+
+#### Reference
+
+https://en.wikipedia.org/wiki/Vanishing_gradient_problem
+
+https://www.researchgate.net/publication/339873479_A_Comparative_Study_of_Sequence_Classification_Models_for_Privacy_Policy_Coverage_Analysis
+
+
 ## Long short-term memory (LSTM)
 [Expand the the definition from the booklet with examples so everybody can understand it]
 
@@ -220,8 +240,33 @@ Transformation is converting or modifying data into a form that is better suited
 Data Reduction is about compressing a large set of features into fewer, more meaningful components while retaining as much information as possible for the neural network to learn effectively.
 
 ## Bag-of-words algorithm:
-Bag-of-Words (BoW) is a fundamental technique in natural language processing that represents text as a collection of word counts, ignoring word order or grammar. Used to represent the processing of natural languages and the retrieval of information. In general, it's a text representation technique which describes a document as a collection of words, with no grammar or word order, only focusing on preserving frequency. Thereby converting the textual data into a numerical one.
+_This was expanded by the teacher_
 
+![1740730228463](https://github.com/user-attachments/assets/7a087402-bc47-4d1a-bf71-90177a6b150b)
+
+Bag-of-Words (BoW) is a fundamental technique in natural language processing that represents text as a collection of word counts, ignoring word order or grammar. Used to represent the processing of natural languages and the retrieval of information. In general, it's a text representation technique which describes a document as a collection of words, with no grammar or word order, only focusing on preserving frequency (multiplicity). Thereby converting the textual data into a numerical one. (a very long vector, usually)
+
+### Uses
+
+The bag-of-words model is commonly used in methods of document classification where, for example, the (frequency of) occurrence of each word is used as a feature for training a classifier. It has also been used for computer vision.
+
+In the case of RAKT(the case study) could be used for classifying either the dataset or the input. 
+
+### Advantadges
+
+- Fast, efficient and relativately easy to code.
+- You don't need a Neural Network for this algorithm!
+
+### Disadvantadges
+
+- There could be some nuances regarding the appearance of certain words that should be addressed in design.
+- The text is acutally not understood by the code. We can make just inferences. 
+
+More references for Bag-of-words
+
+https://en.wikipedia.org/wiki/Bag-of-words_model
+
+https://builtin.com/machine-learning/bag-of-words
 
 ## Training a model
 This refers to the act of teaching an algorithm to recognize patterns in data by tailoring its parameters from test runs using training datasets, thereby achieving optimization of the model's parameters. 
@@ -235,3 +280,18 @@ In the context of training a chatbot, massive datasets and computational power i
 ## Deploying a model
 Deploying a machine learning model involves transitioning a trained model from its development environment to a production system, where it can perform real-time tasks such as generating predictions or interacting with users, as in a chatbot. This process requires setting up the necessary infrastructure to ensure the model runs efficiently, handling factors like computational power, memory, and storage. For large-scale models, such as those used for natural language processing (NLP), significant hardware resources like GPUs (Graphics Processing Units) or TPUs (Tensor Processing Units) are often needed to ensure fast inference and low latency. Additionally, it’s crucial that the infrastructure is flexible to handle fluctuating demand, especially for real-time applications with high user interaction. 
 Deploying on Infrastructure as a Service (IaaS) platforms, such as Amazon Web Services (AWS) or Google Cloud Platform (GCP), is often the best approach. These platforms provide elastic scaling, advanced hardware, and cost-efficiency by allowing businesses to pay only for the resources they use. IaaS also supports automatic scaling and load balancing, ensuring that the chatbot performs well under varying loads and maintains high availability. In short, IaaS solutions offer the flexibility and power required to deploy, scale, and maintain large models like those used in sophisticated chatbots.
+
+
+
+## Example of using ChagGPT text:
+(don't do this if you want to actually do some notes on something) 
+
+Machine learning (ML) dependencies refer to the prerequisite components, libraries, or data needed for a machine learning model to function. These include:
+
+1. Training Data: Large datasets needed to train the model.
+2. Libraries & Frameworks: Tools like TensorFlow, PyTorch, or Scikit-learn provide pre-built functions for training and implementing models.
+3. Compute Resources: Powerful GPUs or TPUs (tensor processing units) are often necessary to process complex ML tasks efficiently.
+4. Dependencies Between Models: Sometimes, one ML model's output serves as the input for another, which creates dependency across different models.
+
+Machine learning models rely heavily on these dependencies for accuracy and efficiency. For instance, poor-quality training data or insufficient compute resources can significantly impact the model's performance.
+
