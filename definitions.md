@@ -286,6 +286,18 @@ Deploying on Infrastructure as a Service (IaaS) platforms, such as Amazon Web Se
 ![d051832eeda42513](https://github.com/user-attachments/assets/2b97659b-33ed-4fb0-8a8f-2bf49f75f848)
 (source https://www.nature.com/articles/d41586-025-00616-z)
 
+## Ethical challenges faced
+
+### Transparency
+
+We talked about this in class. Here you have a caption:
+
+
+![imagen](https://github.com/user-attachments/assets/0f4e0777-7029-4cf2-828c-b10b44893353)
+source: https://www.youtube.com/watch?v=AaU6tI2pb3M
+### What are counterfactual explanations and why is relevant here?
+
+
 
 ## Example of using ChagGPT text:
 (don't do this if you want to actually do some notes on something) 
