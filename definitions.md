@@ -337,9 +337,9 @@ https://simple.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountabilit
 
 https://compliancy-group.com/hipaa-wiki-a-brief-summary-of-hipaa-rights/
 
-****HIPAA (Health Insurance Portability and Accountability Act) is a critical U.S. federal law enacted in 1996 to protect sensitive patient health information (PHI) from being disclosed without the patient’s consent or knowledge. It establishes national standards for electronic healthcare transactions, ensuring data security, privacy, and compliance across healthcare insurers, and businesses handling health information.
+HIPAA (Health Insurance Portability and Accountability Act) is a critical U.S. federal law enacted in 1996 to protect sensitive patient health information (PHI) from being disclosed without the patient’s consent or knowledge. It establishes national standards for electronic healthcare transactions, ensuring data security, privacy, and compliance across healthcare insurers, and businesses handling health information.
 
-<br>  HIPAA is particularly relevant in the context of AI-driven chatbots, such as RAKT's insurance chatbot, as it requires strict safeguards to prevent unauthorized access, misuse, or exposure of customer data. The law is structured around five key rules:
+<br> The law is structured around five key rules:
 
 1. Privacy Rule – Regulates the use and disclosure of PHI, ensuring that only authorized individuals can access sensitive health information.
 2. Security Rule – Mandates that covered entities implement administrative, physical, and technical safeguards to protect electronic PHI (ePHI).
