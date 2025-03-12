@@ -374,3 +374,7 @@ Machine learning (ML) dependencies refer to the prerequisite components, librari
 
 Machine learning models rely heavily on these dependencies for accuracy and efficiency. For instance, poor-quality training data or insufficient compute resources can significantly impact the model's performance.
 
+## Transparency additional information
+Explainable AI: The model should have incorporated techniques that allow users to understand how the model arrives to its conclusions. When the user types an input, the model should clearly state the neccessary facts + information with conclusion for the model´s output AND clearly explain how it arrived to it´s conclusion. The user should be able to understand the model´s conclusions. Think of it like: Why it produces the specific result and what data are they using? It is about helping people understand and trust how the models work.
+Open communication: Communicate the limitations, strengths, and potentional biases of the model to users. After each output the model should state it´s doubts and confidence in it´s response, this should be done effectively and clearly to communicate it´s repsonse to the user.
+User feedback mechanism: Implement mechanisms for users to provide feedback and report issues with the model´s performance. If the model´s output is misleading or problematic, the user can report this to the developing team/support who would look into this problem.
