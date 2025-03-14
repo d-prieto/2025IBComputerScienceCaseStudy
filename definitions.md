@@ -51,6 +51,23 @@ https://en.wikipedia.org/wiki/Critical_path_method
 Machine learning models are powerful tools for solcing complex problems that come with a lot of dependencies that include data sources, libraries, frameworks, configurations and environment variables. If not handled properly then you might end up with inconsistent, unreliable, or even broken models that could harm the business and reputation. 
 The most essential steps to manage machine learning dependencies are to use version control for your code, data, and models. Version control allows you to track, compare, and revert changes, as well as collaborate with other developers and stakeholders. You can use tools like Git, DVC, or MLflow to store and manage your versioned artifacts. Version control also helps you document your model development process and ensure reproducibility and traceability. Another important step to manage machine learning model dependencies is to isolate them from your system and other projects. This way, you can avoid conflicts, errors, and compatibility issues that might arise from different versions or configurations of your dependencies. You can use tools like virtualenv, Docker, or Conda to create isolated environments for your models and their dependencies. Isolating your dependencies also helps you deploy your models more easily and consistently across different platforms and devices. A third step to manage machine learning model dependencies is to automate your dependency management process. This means using tools and scripts that can automatically install, update, and remove your dependencies as needed. You can use tools like pip, poetry, or pipenv to manage your Python packages and dependencies. You can also use tools like Ansible, Chef, or Puppet to automate your infrastructure and configuration management. Automating your dependency management helps you save time, reduce errors, and ensure reliability and scalability. A final step to manage machine learning model dependencies is to monitor them regularly and proactively. This means using tools and metrics that can alert you of any changes, issues, or anomalies in your dependencies that might affect your model performance or availability. You can use tools like Prometheus, Grafana, or Sentry to monitor your model dependencies and their health. You can also use tools like Dependabot, PyUp, or Snyk to monitor your dependency updates and security vulnerabilities. Monitoring your dependencies helps you maintain your model quality and security and prevent potential failures or breaches.
 
+### Different Types of Dependencies
+
+1. One Model Waiting for Another
+- Problem: The chatbot has a module that interprets user queries. If it fails or is slow, the response generator cannot function correctly, causing delays or incorrect replies.
+- Solution: Implement fallback mechanisms like storing past queries and responses to reduce reliance on real-time processing for common requests.
+
+2. Training Data Bottlenecks
+- Problem: If the chatbot was trained on outdated or limited insurance data, it struggles with unseen queries, leading to poor predictions.
+- Solution: Regularly update datasets with diverse, real-world customer interactions and ensure proper data preprocessing to remove biases.
+- 
+3. Too Many Calculations at Once
+- Problem: The chatbot runs heavy computations for every query, increasing response times and straining system resources.
+- Solution: Use a lighter, simplified version of the model that removes unnecessary steps, and run it on faster hardware like TPUs to improve speed.
+
+4. Relying on Outside Services
+- Problem: The chatbot queries external systems for claim verification or fraud detection. If these services are down or slow, responses get delayed or fail.
+- Solution:  Instead of failing immediately, the chatbot should store the user’s request and process it later when the external system is back online. Meanwhile, it should inform the user about the delay rather than just giving an error message.
 #### Reference
 
 https://en.wikipedia.org/wiki/Criti](https://www.linkedin.com/advice/3/how-can-you-manage-machine-learning-model-8h3ze#:~:text=Machine%20learning%20models%20are%20powerful,%2C%20configurations%2C%20and%20environment%20variables.
