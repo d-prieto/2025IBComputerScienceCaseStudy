@@ -342,7 +342,7 @@ https://simple.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountabilit
 
 https://compliancy-group.com/hipaa-wiki-a-brief-summary-of-hipaa-rights/
 
-HIPAA (Health Insurance Portability and Accountability Act) is a critical U.S. federal law enacted in 1996 to protect sensitive patient health information (PHI) from being disclosed without the patient’s consent or knowledge. It establishes national standards for electronic healthcare transactions, ensuring data security, privacy, and compliance across healthcare insurers, and businesses handling health information.
+HIPAA (Health Insurance Portability and Accountability Act) is a critical U.S. federal law enacted in 1996 to protect sensitive patient health information (PHI) from being disclosed without the patient’s consent or knowledge. It establishes national standards for electronic healthcare transactions, ensuring data security, privacy, and compliance across healthcare insurers.
 
 <br> The law is structured around five key rules:
 
@@ -353,11 +353,12 @@ HIPAA (Health Insurance Portability and Accountability Act) is a critical U.S. f
 5. Omnibus Rule – Expands HIPAA’s reach by holding business associates (e.g., third-party vendors) accountable for compliance.
 
 <br> For RAKT's chatbot, HIPAA compliance means:
-1. Implementing data encryption to protect PHI during storage and transmission.
-2. Using access control mechanisms to restrict data access to authorized personnel.
-3. Ensuring audit trails and monitoring systems to track who accessed or modified PHI.
-4. Minimizing data collection to only what is necessary for the chatbot's functionality.
-5. Applying anonymization techniques to reduce the risk of identifiable information exposure.
+
+1. Encrypt all customer data to prevent leaks or breaches.
+2. Restrict access so that only authorized personnel can retrieve sensitive information.
+3. Audit chatbot interactions to track potential misuse of personal data.
+4. Minimize data collection, only storing what is necessary for claims processing.
+5. Anonymize data when using it for training to avoid exposing customer identities.
 
 <br> Failure to comply with HIPAA can lead to severe legal consequences, hefty fines, and reputational damage. Thus, integrating HIPAA-compliant AI governance is essential for maintaining user trust and ethical AI deployment in the insurance industry.
 
