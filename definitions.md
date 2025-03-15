@@ -137,6 +137,10 @@ https://www.researchgate.net/publication/339873479_A_Comparative_Study_of_Sequen
 ## Long short-term memory (LSTM)
 [Expand the the definition from the booklet with examples so everybody can understand it]
 
+Teacher: Here a video that might be useful 
+
+https://www.youtube.com/watch?v=KMHkbXzHn7s
+
 ### Memory cell state
 - The cell state is the memory unit of the network.
 - The cell state carries information that can be stored in, written to, or read from a previous cell state via gates that open or close.
@@ -354,10 +358,7 @@ source: https://www.youtube.com/watch?v=AaU6tI2pb3M
 ### What are counterfactual explanations and why is relevant here?
 
 ### HIPAA
-//TO-DO
-https://simple.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act
 
-https://compliancy-group.com/hipaa-wiki-a-brief-summary-of-hipaa-rights/
 
 HIPAA (Health Insurance Portability and Accountability Act) is a critical U.S. federal law enacted in 1996 to protect sensitive patient health information (PHI) from being disclosed without the patient’s consent or knowledge. It establishes national standards for electronic healthcare transactions, ensuring data security, privacy, and compliance across healthcare insurers.
 
@@ -371,26 +372,20 @@ HIPAA (Health Insurance Portability and Accountability Act) is a critical U.S. f
 
 <br> For RAKT's chatbot, HIPAA compliance means:
 
-1. Encrypt all customer data to prevent leaks or breaches.
-2. Restrict access so that only authorized personnel can retrieve sensitive information.
-3. Audit chatbot interactions to track potential misuse of personal data.
-4. Minimize data collection, only storing what is necessary for claims processing.
-5. Anonymize data when using it for training to avoid exposing customer identities.
+1. Encrypt all customer data to prevent leaks or breaches. DOABLE? IS IN THE SCOPE OF THE CHATBOT? HOW?
+2. Restrict access so that only authorized personnel can retrieve sensitive information. DOABLE? IS IN THE SCOPE OF THE CHATBOT? HOW?
+3. Audit chatbot interactions to track potential misuse of personal data. DOABLE? IS IN THE SCOPE OF THE CHATBOT? HOW?
+4. Minimize data collection, only storing what is necessary for claims processing. DOABLE? IS IN THE SCOPE OF THE CHATBOT? HOW?
+5. Anonymize data when using it for training to avoid exposing customer identities.DOABLE? IS IN THE SCOPE OF THE CHATBOT? HOW?
 
 <br> Failure to comply with HIPAA can lead to severe legal consequences, hefty fines, and reputational damage. Thus, integrating HIPAA-compliant AI governance is essential for maintaining user trust and ethical AI deployment in the insurance industry.
 
+#### References
 
-## Example of using ChagGPT text:
-(don't do this if you want to actually do some notes on something) 
 
-Machine learning (ML) dependencies refer to the prerequisite components, libraries, or data needed for a machine learning model to function. These include:
+https://simple.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act
 
-1. Training Data: Large datasets needed to train the model.
-2. Libraries & Frameworks: Tools like TensorFlow, PyTorch, or Scikit-learn provide pre-built functions for training and implementing models.
-3. Compute Resources: Powerful GPUs or TPUs (tensor processing units) are often necessary to process complex ML tasks efficiently.
-4. Dependencies Between Models: Sometimes, one ML model's output serves as the input for another, which creates dependency across different models.
-
-Machine learning models rely heavily on these dependencies for accuracy and efficiency. For instance, poor-quality training data or insufficient compute resources can significantly impact the model's performance.
+https://compliancy-group.com/hipaa-wiki-a-brief-summary-of-hipaa-rights/
 
 ## Transparency additional information
 Explainable AI: The model should have incorporated techniques that allow users to understand how the model arrives to its conclusions. When the user types an input, the model should clearly state the neccessary facts + information with conclusion for the model´s output AND clearly explain how it arrived to it´s conclusion. The user should be able to understand the model´s conclusions. Think of it like: Why it produces the specific result and what data are they using? It is about helping people understand and trust how the models work.
