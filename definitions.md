@@ -137,9 +137,7 @@ https://www.researchgate.net/publication/339873479_A_Comparative_Study_of_Sequen
 ## Long short-term memory (LSTM)
 [Expand the the definition from the booklet with examples so everybody can understand it]
 
-Teacher: Here a video that might be useful 
 
-https://www.youtube.com/watch?v=KMHkbXzHn7s
 
 ### Memory cell state
 - The cell state is the memory unit of the network.
@@ -162,6 +160,10 @@ The hidden state contains information on previous inputs and is used for predict
 
 ### Self-attention mechanism 
 [Go in detail with this]
+
+Teacher: Here a video that might be useful 
+
+https://www.youtube.com/watch?v=KMHkbXzHn7s
 
 ## Specifications of a dataset: large, accurate, classified, readable, domain specific, relevant
 [For each specification write the definition and an example of a dataset that complies that specification and a dataset that doesn't comply that specification]
