@@ -173,6 +173,7 @@ Self-attention mechanism is required to search for contextual meaning within a m
 2. Distinguishing between different contexts (for example generating personas (same information can be written in academic language or explained as a five year old would explain it)).
 
 **How does it work??**
+
 Each words gets assigned a token. A token is a high dimensional vector that is unique for each word. 
 Also three matrices are assigned to each word. They're called "query", "key" and "value".
 Using all of this the model finds a contextual token and weighs how important it is and how much does it suit the situation (context).
