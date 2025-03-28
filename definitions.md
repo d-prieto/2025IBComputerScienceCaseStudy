@@ -103,6 +103,9 @@ For example if the sentence "train is going station to the Fred," it will get fl
 ## Recurrent neural network (RNN)
 [Build from the understanding of Neural Networks and gradient of a function from up above and explain the different concepts]
 
+
+
+
 ### Memory of the network
 
 ### Layer weight
@@ -132,6 +135,8 @@ It's called vanishing gradient because it's about the partial derivative. (Gradi
 https://en.wikipedia.org/wiki/Vanishing_gradient_problem
 
 https://www.researchgate.net/publication/339873479_A_Comparative_Study_of_Sequence_Classification_Models_for_Privacy_Policy_Coverage_Analysis
+
+https://en.wikipedia.org/wiki/Recurrent_neural_network
 
 
 ## Long short-term memory (LSTM)
