@@ -154,6 +154,11 @@ The first block represented in the LSTM architecture is the forget gate. The for
 ### Output gate 
 The hidden state contains information on previous inputs and is used for prediction. The output gate regulates the present hidden state. The previous hidden state and current input are passed to the sigmoid function. This output is multiplied with the output of the tanh function to obtain the present hidden state. The current state and present hidden state are the final outputs from a classic LSTM unit.  
 
+
+### Reference for LSTM
+
+https://www.bioinf.jku.at/publications/older/2604.pdf
+
 ## Transformer Neural Networks (Transformer NNs)
 [Build from the understanding of Neural Networks and gradient of a function from up above and explain the different concepts]
 
